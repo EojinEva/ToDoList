@@ -7,12 +7,9 @@
 
 import UIKit
 
-class Tasks: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+struct task {
+    var title: String
+    var done: Bool
     }
     
 
@@ -26,4 +23,4 @@ class Tasks: UIViewController {
     }
     */
 
-}
+
